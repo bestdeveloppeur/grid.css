@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+
+}
+.parent{
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 100px 100px repeat(2, 4fr);
+    grid-template-rows:repeat(1fr 1fr 1fr) ;
+     
+    gap:0px 10px ;
+}
+.parent div{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
